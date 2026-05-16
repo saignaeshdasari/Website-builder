@@ -8,7 +8,7 @@ import Generate from './pages/Generate'
 import WebEditor from './pages/Editor'
 import LiveSite from './pages/LiveSite'
 import Pricing from './pages/Pricing'
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://website-builder-ze0q.onrender.com"
 const App = () => {
   UseGetCurrentUser()
   const {userData} = useSelector(state=>state.user)
